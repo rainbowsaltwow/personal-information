@@ -1,0 +1,153 @@
+   /*For dextop */
+.col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+
+            /*Navbar design starts here*/
+.nav-logo{
+    text-align: left;
+}
+.nav-heading{
+    text-align: right;
+}
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.navbar-menu a{
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+            /*Navbar design starts here*/
+
+
+            /*profile design starts here*/
+
+            .profile .top-weather-icon{
+                position: absolute;
+                right: 60px;
+                top: 20px;
+                height: 120px;
+                width: 140px;
+                transition: width 2s, transform 2s;
+            }
+            .profile .top-weather-icon:hover{
+                transform: rotate(360deg);
+            }
+            .profile .bottom-weather-icon{
+                position: absolute;
+                left: 60px;
+                bottom: 20px;
+                height: 120px;
+                width: 140px;
+                transition: width 2s, transform 2s;
+            }
+            .profile .bottom-weather-icon:hover{
+                transform: rotate(360deg);
+            }
+            .profile-desc p{
+                color: gray;
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            /*profile design ends here*/
+
+
+             /*about me design starts here*/
+
+.aboutme{
+    text-align: center;
+}
+
+.aboutme-img{
+                margin-top: 100px;
+                margin-left: -100px;
+                
+            }
+ .aboutme-img img{
+                height: 300px;
+                width: 300px;
+            }
+
+.aboutme-desc p{
+    text-align: left;
+    padding: 1% ;
+}
+            /*about me design ends here*/
+
+
+
+            /*Professional Experience design starts here*/
+
+.professional-experience{
+    padding: 1% 5%;
+}
+
+.professional-experience .card{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 800px;
+}
+
+.skills .card3{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    height: 800px;
+}
+.skills .card3:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+        /*Professional Experience ends starts here*/        
+
+
+
+        /*Achivement contact starts here*/
+
+.achivement{
+    padding-right: 50px;
+}
+.contact button{
+    width: 200px;
+}
+.contact-links{
+    position: relative;
+}
+.media-buttons{
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     margin-top: 200px;
+}
+           /*Achivement contact ends here*/
+
+
+
+           /* footer section starts here */
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+
+
+
+            /* footer section ends here */
